@@ -13,6 +13,26 @@
           <option name="language" value="Python3" />
           <option name="generateVisitor" value="true" />
         </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/grammars/JavaParserLabeled.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="" />
+          <option name="language" value="Python3" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
+        <PerGrammarGenerationSettings>
+          <option name="fileName" value="$PROJECT_DIR$/grammars/JavaLexer.g4" />
+          <option name="autoGen" value="true" />
+          <option name="outputDir" value="" />
+          <option name="libDir" value="" />
+          <option name="encoding" value="" />
+          <option name="pkg" value="" />
+          <option name="language" value="Python3" />
+          <option name="generateVisitor" value="true" />
+        </PerGrammarGenerationSettings>
       </list>
     </option>
   </component>
@@ -91,5 +111,5 @@
       <textMaps />
     </LinkMapSettings>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (CodART)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
 </project>
