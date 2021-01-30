@@ -4,13 +4,13 @@ class A
     public int f; /* printF , printF, */
     public int g; /* printF, printG */
     public string h; /* printH */
-    public static void E(){
+    public static void E(int a, char c, long b){
         print(this.g);
     }
     public static void KK(){
         print(this.g);
     }
-    public static final void Test(){
+    public static  void Test(){
         print(this.g);
     }
 }
@@ -20,7 +20,7 @@ class B extends A
         print(this.f);
     }
 }
-class F extends B{
+class F extends B {
     public final static void KK(){
         print(this.f);
     }
@@ -30,7 +30,7 @@ class H extends F{
         print(this.f);
     }
 }
-/*
+
 class C
 {
     // Method 1
@@ -74,7 +74,4 @@ class C
     final void O(){
         print(this.g);
     }
-
 }
-
-*/
